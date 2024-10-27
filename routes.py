@@ -26,6 +26,7 @@ def router(page: Page):
             bgcolor = colors.BLACK,
             padding = 30
         ),
+        
         "/signup/success" : View(
             page.route,
             [SignUpSuccess(page)],
